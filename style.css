@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 234, 234);
+}
+
+.todolist{
+    width: 500px;
+    background-color: white;
+    padding: 50px;
+}
+
+.todolist .title h1{
+    background-color: rgb(10, 10, 126);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 460px;
+}
+
+.todolist .form{
+    padding: 30px;
+}
+
+.todolist .form .todoinput {
+    width: 350px;
+    height: 25px;
+}
+
+.todolist .form .todobutton{
+    width: 80px;
+    height: 28px;
+    background-color: rgb(10, 10, 126);
+    color: white;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+}
+
+.todolist .form .todobutton:hover{
+    cursor: pointer;
+}
